@@ -1,0 +1,23 @@
+footer a{
+    text-decoration:none;
+    color: white;
+}
+footer a:hover{
+    font-size: large;
+    color: cornflowerblue;
+}
+.aboutus{
+    background-image: url('/images/background.jpg')
+    
+}
+.messege{
+    margin: 10px;
+}
+
+.zooming:hover {
+    transform: scale(1.2); /* (150% zoom)*/
+  }
+.zooming h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

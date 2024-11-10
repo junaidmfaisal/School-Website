@@ -1,0 +1,106 @@
+/* index page starts */
+/* body{
+    background-color:rgb(241, 233, 233) !important;
+
+}
+#aboutus{
+    background-color:rgb(255, 255, 255) !important;
+
+} */
+
+
+footer a{
+    text-decoration:none;
+    color: white;
+}
+footer a:hover{
+    font-size: large;
+    color: cornflowerblue;
+}
+.aboutus{
+    background-image: url('/images/background.jpg')
+    
+}
+
+#facilities{
+    background-image: url('/images/background3.png')
+
+}
+.messspace{
+    padding: 10;
+    margin: 10;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+
+    }
+
+
+
+.zooming h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .zooming:hover {
+        transform: scale(1.2); /* (150% zoom)*/
+      }
+
+    
+    }
+@media (min-width: 768px) { 
+    .zooming:hover {
+        transform: scale(1.2); /* (150% zoom)*/
+      }
+     .pc{
+         display: none;
+     } 
+     
+
+    }
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption {
+        position: fixed;
+        top: 60%;
+        left: 0;
+        bottom: 0;
+    }
+    .carousel-indicators button {
+        display: none;
+    }
+
+    .spacebtwdiv div {
+        padding: 10px !important;
+    }
+
+
+      }    
+
+
+    /* index page end */
+.navbar-item a{
+    color: black;
+    }
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+ }
+
+.list-group li{
+    background-color: #ECECEC;
+}
+
+.list-group li :hover{
+    background-color: black;
+}
+
+.spacebtwdiv2 div{
+    padding: 20px;
+}
+
+#academics{
+    background-color: #F7F7F7;
+}
